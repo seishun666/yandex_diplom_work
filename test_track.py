@@ -37,7 +37,7 @@ def create_and_check_order():
 # Вызов функции для создания и проверки заказа
 create_and_check_order()
 
-
+# Нагымова Анаргуль, 20-я когорта — Финальный проект. Инженер по тестированию плюс
 def test_post_new_order():
     test_order = data.order_body.copy()
     response = stand_request.post_new_order(test_order)
